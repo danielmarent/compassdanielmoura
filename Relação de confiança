@@ -7,3 +7,4 @@ ssh-keygen
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@DNS (o user seria o seu nome de usuário @ seu ip)
 
 ssh user@DNS -i ~/.ssh/id_rsa (digite novamente o user@id para acessar sem utilizar a senha do user)
+
