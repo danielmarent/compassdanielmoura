@@ -1,0 +1,9 @@
+Primeiramente para estabeler uma relação de confianca entre duas máquinas é necessário a criação de "chaves" criptografadas para que duas máquinas possam se conectar.
+
+No terminal da maquina que deseja gerar a chave, digite o comando: 
+
+ssh-keygen
+
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@DNS (o user seria o seu nome de usuário @ seu ip)
+
+ssh user@DNS -i ~/.ssh/id_rsa (digite novamente o user@id para acessar sem utilizar a senha do user)
